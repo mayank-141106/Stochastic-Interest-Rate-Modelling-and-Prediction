@@ -18,7 +18,7 @@ The final model achieves an out-of-sample R²_oos of **0.9772** across all evalu
 ├── train_data.csv          # Training data: daily yields, May 2016 – Apr 2024 (1,976 rows)
 ├── test_data.csv           # Test actuals: 3M–2Y yields, Apr 2024 – Apr 2026 (495 rows)
 ├── test_data_3M.csv        # Test input: 3M yield only (allowed prediction input)
-├── notebook.ipynb          # Main notebook — all stages A through E
+├── CIR_Model.ipynb          # Main notebook — all stages A through E
 └── README.md               # This file
 ```
 
@@ -196,9 +196,3 @@ scikit-learn
 
 ---
 
-## References
-
-- Cox, J.C., Ingersoll, J.E., Ross, S.A. (1985). _A Theory of the Term Structure of Interest Rates._ Econometrica, 53(2), 385–408.
-- Brigo, D., Mercurio, F. (2001). _Interest Rate Models — Theory and Practice._ Springer Finance.
-- Campbell, J.Y., Thompson, S.B. (2008). _Predicting Excess Stock Returns Out of Sample._ Review of Financial Studies, 21(4), 1509–1531.
-- Litterman, R., Scheinkman, J. (1991). _Common Factors Affecting Bond Returns._ Journal of Fixed Income, 1(1), 54–61.
